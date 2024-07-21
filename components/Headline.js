@@ -1,4 +1,4 @@
-import styles from "@/styles/Home.module.css";
+import styles from "./Headline.module.css";
 import Image from "next/image";
 
 export function Headline(props) {
