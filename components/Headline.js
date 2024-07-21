@@ -1,7 +1,7 @@
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 
-export default function Headline(props) {
+export function Headline(props) {
   return (
     <div className={styles.description}>
       <p>
