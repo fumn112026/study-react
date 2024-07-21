@@ -1,4 +1,5 @@
 import styles from "./Links.module.css";
+import Link from "next/link";
 
 const ITEMS = [
   {
@@ -28,10 +29,10 @@ export function Links() {
     <div className={styles.grid}>
       {ITEMS.map((item) => {
         return (
-          <a href={item.href} className={styles.card} target="_blank">
+          <Link href={item.href} className={styles.card} target="_blank">
             <h2>{item.title}</h2>
             <p>{item.description}</p>
-          </a>
+          </Link>
         )
       })}
     </div>
