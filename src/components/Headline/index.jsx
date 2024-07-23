@@ -1,7 +1,7 @@
 import styles from "src/components/Headline/Headline.module.css";
 import Image from "next/image";
 
-export function Headline(props) {
+export const Headline = (props) => {
   return (
     <div className={styles.description}>
       <p>

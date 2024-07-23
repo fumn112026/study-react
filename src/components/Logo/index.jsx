@@ -1,7 +1,7 @@
 import Image from "next/image";
- import styles from "src/components/Logo/Logo.module.css"
+import styles from "src/components/Logo/Logo.module.css";
 
-export function Logo() {
+export const Logo = () => {
   return (
     <div className={styles.center}>
       <Image
@@ -14,4 +14,4 @@ export function Logo() {
       />
     </div>
   );
-}
+};

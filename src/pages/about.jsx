@@ -10,7 +10,7 @@ import { useBgLightBlue } from "@/src/hooks/useBgLightBlue";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function About() {
+const About = () => {
   const { count, isShow, handleCount, handleDisplay } = useCounter();
   const { text, array, handleChange, handleAdd } = useInputArray();
   useBgLightBlue();
@@ -37,4 +37,6 @@ export default function About() {
       </main>
     </>
   );
-}
+};
+
+export default About;
