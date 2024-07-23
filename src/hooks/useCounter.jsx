@@ -7,7 +7,7 @@ export const useCounter = () => {
 
   const handleCount = useCallback(() => {
     setCount((prevCount) => prevCount + 1);
-  }, [count]);
+  }, []);
 
   const handleDisplay = useCallback(() => {
     setIsShow((prevIsShow) => !prevIsShow);

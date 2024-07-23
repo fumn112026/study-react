@@ -22,7 +22,7 @@ export const useInputArray = () => {
       },
       [text]
     );
-  });
+  }, [text]);
 
   return { text, array, handleChange, handleAdd };
 };
